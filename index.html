@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="src/styles/styles.css">
-    <link rel="stylesheet" href="src/styles/header.css">
-    <link rel="stylesheet" href="src/styles/home.css">
-    <link rel="stylesheet" href="src/styles/menu.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Love</title>
@@ -25,13 +22,16 @@
                     <a href="#menu">Álbum</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#testimonials">Avaliações</a>
+                    <a href="#testimonials">Carta</a>
                 </li>
             </ul>
 
-            <button class="btn-default">
-                Peça aqui
-            </button>
+            <div id="cta_buttons">
+                <a href="https://open.spotify.com/intl-pt/track/2KGv51jgAz8OTjNPyRryfq" class="btn-default">
+                    <i class="fa-brands fa-spotify"></i>
+                    Nossa música
+                </a>
+            </div>
 
             <button id="mobile_btn">
                  <i class="fa-solid fa-bars"></i>
@@ -48,13 +48,16 @@
                     <a href="#menu">Álbum</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#testimonials">Avaliações</a>
+                    <a href="#testimonials">Carta</a>
                 </li>
             </ul>
 
-            <button class="btn-default">
-                Peça aqui
-            </button>
+            <div id="cta_buttons">
+                <a href="https://open.spotify.com/intl-pt/track/2KGv51jgAz8OTjNPyRryfq" class="btn-default">
+                    <i class="fa-brands fa-spotify"></i>
+                    Nossa música
+                </a>
+            </div>
 
          </div>
 
@@ -224,8 +227,79 @@
             </div>
         </section>
 
-        <section>#</section>
+        <section id="testimonials">
+            <img src="src/images/love1.png" id="testimonial_chef" alt="">
+
+            <div id="testimonials_contetnt">
+                <h2 class="section-title">
+                    TE AMOOOOO
+                </h2>
+                <h3 class="section-subtitle">
+                    MUITÃOOOOOO
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/red-heart-bumping.gif" class="feedback-avatar" alt="">
+                        <p>
+                            Amor, é como eu já te disse, a gente se conheceu recentemente, mas parece que já faz anos. Queria deixar registrado aqui o quanto eu te amo e ainda vou te amar, 
+                            que amo absolutamente tudo em você, cada detalhe seu, seu sorriso, sua voz, seus olhinhos, seu nariz, seu cabelo, seu jeito, sua alma, suas brincadeiras, seu amor, 
+                            sua respiração, tudo em você é belo e me encanta cada vez mais.
+                        </p>
+                    </div>
+                    <div id="feedbacks">
+                        <div class="feedback">
+                            <img src="src/images/red-heart-bumping.gif" class="feedback-avatar" alt="">
+                            <p>
+                                Meus dias só começam depois do seu "Bom dia", e uma mensagem sua é capaz de transformar um dia ruim em um dia incrível, é impossível ser triste te amando e sabendo 
+                                que você me ama também! Saiba que TE AMOOOOO MUITÃOOOO e vou te amar para sempre. 
+                            </p>
+
+                        </div>
+                    </div>
+                    <div id="feedbacks">
+                        <div class="feedback">
+                            <img src="src/images/red-heart-bumping.gif" class="feedback-avatar" alt="">
+                            <p>
+                                No momento a gente está longe um do outro e isso faz a gente aproveitar cada segundo quando estamos junto, faz eu querer grudar em você e não soltar mais, mas já 
+                                te falei, ficamos longe agora para podermos ficar juntos depois para o resto da vida, e espero que esses dias não estejam longe.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="feedbacks">
+                        <div class="feedback">
+                            <img src="src/images/red-heart-bumping.gif" class="feedback-avatar" alt="">
+                            <p>
+                                Não sou dos melhores escrevendo e nem sei descrever com palavras tudo aquilo que sinto por você, pois é algo inimaginável, mas espero que isso tenha demostrado ao 
+                                menos 1% do quanto amo você, meu amor. TE AMOOOOO MUITÃOOOO, PRA SEMPRE COM VOCÊ!!!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy; 2024 griloGOD
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="https://www.instagram.com/_llarasantana/">
+                    <i class="fa-brands fa-instagram"></i>
+                    Lara
+                </a>
+                <a href="https://www.instagram.com/luisinfilipi/">
+                    <i class="fa-brands fa-instagram"></i>
+                    Luis
+                </a>
+            </div>
+        </div>
+    </footer>
 
     <script src="src/javascript/script.js"></script>
 </body>
