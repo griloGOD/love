@@ -41,6 +41,7 @@
     justify-content: end;
     width: 70%;
     z-index: 2;
+    margin-right: -30px;
 }
 
 #banner img{

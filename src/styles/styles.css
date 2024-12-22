@@ -4,6 +4,7 @@
 @import url('menu.css');
 @import url('testimonials.css');
 @import url('footer.css');
+@import url('fujao.css');
 
 *{
     font-family: "Poppins", sans-serif;
@@ -12,12 +13,17 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #f1d5dc;
 }
 
 section{
     padding: 28px 8%;
+    scroll-margin-top: 50px;
 }
 
 .btn-default{
