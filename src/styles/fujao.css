@@ -5,15 +5,31 @@
     justify-content: center;
 }
 
+#fujao .section-subtitle {
+    margin-bottom: 50px; /* Espaço entre o título e a imagem */
+}
 
 #sim{
     position: absolute;
     z-index: 3;
     display: flex;
     gap: 24px;
+    margin-right: 90px;
 }
 
 #sim a{
+    display: inline-block;
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+#nao{
+    display: flex;
+    gap: 24px;
+    margin-left: 90px;
+}
+
+#bao a{
     display: inline-block;
     text-decoration: none;
     color: #1d1d1d;
@@ -29,4 +45,10 @@
 #resposta #cta_buttons {
     display: flex;
     align-items: center;
+}
+
+#fujao img {
+    width: 300px; /* Defina a largura desejada */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 50px; /* Espaço entre a imagem e os botões */
 }

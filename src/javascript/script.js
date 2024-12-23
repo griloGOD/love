@@ -34,6 +34,13 @@ $(document).ready(function() {
     var botaoSim = document.getElementById('sim');
     botaoSim.addEventListener('mouseover', fuja);  // Quando o mouse passar sobre o botão 'Sim', ele se moverá
 
+    // Evento para o botão "Não"
+    var botaoNao = document.getElementById('nao');
+    botaoNao.addEventListener('click', function(event) {
+        event.preventDefault(); // Impede o redirecionamento
+        var imagem = document.querySelector('#fujao img'); // Seleciona a imagem
+        imagem.src = 'src/images/pipipi.png'; // Altera o atributo src da imagem
+    });
 
     $(window).on('scroll', function() {
         const header = $('header');
@@ -82,6 +89,6 @@ $(document).ready(function() {
     ScrollReveal().reveal('.feedback', {
         origin: 'right',
         duration: 1000,
-        distance: '20%',
+        distance: '10%',
     })
 });

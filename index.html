@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="icon" href="src/images/heart.ico" type="image/x-icon">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -20,13 +21,13 @@
                     <a href="#home">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#menu">Álbum</a>
+                    <a href="#album">Álbum</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#testimonials">Love</a>
+                    <a href="#testimonials">Para Você</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#fujao">Gostou</a>
+                    <a href="#fujao">Sua Opinião</a>
                 </li>
             </ul>
 
@@ -49,13 +50,13 @@
                     <a href="#home">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#menu">Álbum</a>
+                    <a href="#album">Álbum</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#testimonials">Love</a>
+                    <a href="#testimonials">Para Você</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#fujao">Gostou</a>
+                    <a href="#fujao">Sua Opinião</a>
                 </li>
             </ul>
 
@@ -106,7 +107,7 @@
             </div>
         </section>
 
-        <section id="menu">
+        <section id="album">
             <h2 class="section-title">Álbum</h2>
             <h3 class="section-subtitle">Nossos momentos especiais</h3>
 
@@ -285,6 +286,11 @@
                 </div>
             </div>
         </section>
+
+        <section id="calendar">
+            
+        </section>
+
         <section id="fujao">
             <h2 class="section-title">Gostou?</h2>
             <h3 class="section-subtitle">Gostou do seu presente de natal?</h3>
@@ -292,12 +298,14 @@
             <img src="src/images/tonton-friends-tonton.gif" alt="">
 
             <div id="resposta">
-                <div id="sim" class="btn-default">
-                    <i class="fa-solid fa-thumbs-up"></i>
-                    Sim
+                <div id="sim">
+                    <a class="btn-default">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        Sim
+                    </a>
                 </div>
-                <div id="cta_buttons">
-                    <a href="" class="btn-default">
+                <div id="nao">
+                    <a class="btn-default">
                         <i class="fa-solid fa-thumbs-down"></i>
                             Não
                     </a>
