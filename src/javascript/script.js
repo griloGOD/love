@@ -89,6 +89,6 @@ $(document).ready(function() {
     ScrollReveal().reveal('.feedback', {
         origin: 'right',
         duration: 1000,
-        distance: '10%',
+        distance: '20%',
     })
 });
